@@ -1,0 +1,116 @@
+
+
+/* Identifiers */
+#brand {
+  border-radius: 50%;
+  height: 3rem;
+}
+
+#C2C {
+  line-height: 1;
+  font-size: 1.5rem;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  font-family: "Gaegu", cursive;
+}
+
+#c2c-svce {
+  color: #27496d;
+  text-decoration: none;
+  font-family: "Comic Neue", cursive;
+}
+
+#do {
+  margin: 0px auto 0px auto;
+  font-family: "Gaegu", cursive;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+#gopher {
+  margin-top: 3rem;
+  height: 12rem;
+}
+
+#mee {
+  height: 12rem;
+  border-radius: 50%;
+  margin: 2rem auto 0.5rem;
+}
+
+#myname {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 1.8rem;
+  line-height: 2;
+  margin-bottom: 0.2rem;
+}
+
+#Name {
+  color: #27496d;
+  margin: 0px auto 0px auto;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 3.8rem;
+  line-height: 2;
+}
+
+#std {
+  line-height: 1;
+  margin: 0px auto;
+  font-family: "Gaegu", cursive;
+  font-size: 1.5rem;
+}
+
+#svce {
+  color: #27496d;
+  text-decoration: none;
+  font-family: "Comic Neue", cursive;
+}
+
+/* classes */
+.add{
+    background-color: #132d46;
+    padding: 2% 2%;
+}
+
+.golang {
+  text-decoration: underline;
+  font-family: "Comic Neue", cursive;
+  font-size: 2.6rem;
+}
+
+.header {
+  text-align: center;
+  background-color: #bbded6;
+  padding-bottom: 2rem;
+}
+
+.line {
+  border-style: dotted;
+  border-width: 0.3rem;
+  border-bottom: none;
+  color: #a7b8ca;
+  margin: 4rem auto;
+  width: 3.5rem;
+}
+
+.me {
+  background-color: #f7f7f7;
+  border-radius: 5rem;
+  margin: 2rem auto 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.navbar {
+  background-color: #bbded6;
+}
+
+/* containers */
+
+
+.container-fluid {
+  padding: 2% 8% 1%;
+}
