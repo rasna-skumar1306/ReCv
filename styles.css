@@ -1,3 +1,5 @@
+/* 240px- sml phn, 320px- iphone, 480px- sml tablet*/
+
 /* classes */
 .n {
   padding: 2% 6% 3%;
@@ -161,10 +163,10 @@
   font-size: 1.5rem;
 }
 .ep {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.7rem;
 }
-.epmark{
+.epmark {
   color: #f38181;
 }
 /* ids */
@@ -251,7 +253,7 @@
 #ski2 {
   border-bottom: 7px dotted #00adb5;
 }
-#exp2{
+#exp2 {
   border-bottom: 7px dotted #393e46;
 }
 /* media querries */
@@ -355,24 +357,61 @@
     font-size: 2.5rem;
     margin-top: 15%;
     margin-bottom: 2%;
+    margin-left: 23%;
   }
   .content {
     font-size: 1.4rem;
     margin-top: 1%;
-    margin-left: 40%;
-    padding-left: 1.5rem;
+    margin-left: 23%;
   }
   .star {
     height: 1.1rem;
   }
 }
 @media screen and (max-width: 480px) {
+  #imr {
+    margin: 1% 2%;
+  }
+  .images#ski_go {
+    height: 5rem;
+    margin-left: 37%;
+    text-align: center;
+  }
+  .images#moon {
+    height: 8rem;
+    margin-top: 3rem;
+    margin-right: 45%;
+    margin-left: 38%;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
   .topc {
     margin: 18% 2%;
     text-align: left;
   }
   .content,
   .contit {
+    padding-top: 18%;
     margin-left: 20%;
+  }
+  .star.fir {
+    padding-left: 0.8rem;
+  }
+  .star {
+    height: 0.9rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .topc {
+    margin: 18% 1%;
+    text-align: left;
+  }
+  .content,
+  .contit {
+    margin-left: 14%;
+    padding-top: 18%;
+  }
+  .star.fir {
+    padding-left: 0.8rem;
   }
 }
